@@ -1,0 +1,39 @@
+.descriptions{
+    position: absolute;
+    top: 2px;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none;
+    .description{
+        background-color: rgba(93, 89, 89, 0.602);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        clip-path: inset(50% 0 50%);
+        transition: clip-path .4s;
+        p{
+            padding-top: 20px;
+            &:nth-of-type(1){
+                color: greenyellow;
+                text-transform: uppercase;
+                font-weight: 700;
+                font-size: 8vw;
+                line-height: 7.5vw;
+                margin: 0px;
+                position: relative;
+                z-index: 1;
+                // width: 60%;
+            }
+            &:nth-of-type(2){
+                margin-left: 3%;
+                width: 50%;
+                font-size: 20px;
+                font-weight: 700;
+                color: whitesmoke;
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.main{
+    background-color: rgba(9, 9, 9, 0.915);
+    color: var(--text-secondary);
+}
+
+.top{
+    height: 100vh;
+    width: 100vw;
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+}
+
+.bottom{
+    height: 80vh;
+    width: 100vw;
+    // border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+}
